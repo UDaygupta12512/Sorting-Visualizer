@@ -1,52 +1,130 @@
-# SORTING ALGORITHM VISUALIZER
-Sorting Visualizer: A Python project with a graphical interface using tkinter to demonstrate Insertion, Selection, and Bubble Sort algorithms step-by-step on an array. Adjustable speed control for better visualization.
+🧠 Sorting Visualizer
+
+Sorting Visualizer is an interactive web application that visualizes how various sorting algorithms work in real time. It’s a great learning tool for students, developers, and anyone interested in understanding sorting techniques through animations.
+
+🔗 Live Demo: (Add your deployed link here, if available)
+📦 Repository: https://github.com/UDaygupta12512/sorting-visualizer
+
+🚀 Overview
+
+This project visually demonstrates the behavior and efficiency of common sorting algorithms. Users can generate arrays of varying sizes, control the animation speed, and watch popular algorithms sort the data step by step.
+
+Perfect for algorithm learners, interview prep, and front-end practice.
+
+🧩 Features
+
+📊 Visual animation of sorting algorithms
+
+⚙️ Adjustable array size
+
+⏱️ Control animation speed
+
+🎨 Color-coded states for easy tracking
+
+🧠 Educational and interactive UI
+
+🛠️ Tech Stack
+
+HTML
+
+CSS
+
+JavaScript
+
+(Adjust if additional frameworks/libraries are used)
+
+📌 Supported Algorithms
+
+This visualizer includes (or can include) the following sorting algorithms:
+
+🟢 Bubble Sort
+
+🟠 Selection Sort
+
+🔵 Insertion Sort
+
+🔻 Merge Sort
+
+🔺 Quick Sort
+
+🟡 Heap Sort
+
+(Update list according to your implementation)
+
+📁 Project Structure
+sorting-visualizer/
+├── index.html
+├── css/
+│   └── style.css
+├── js/
+│   └── app.js
+├── assets/
+└── README.md
+
+🏁 Installation & Setup
+
+To run the project locally:
+
+Clone the repository
+
+git clone https://github.com/UDaygupta12512/sorting-visualizer.git
+cd sorting-visualizer
 
 
-Project Description: Sorting Visualizer in Python
+Open index.html in your browser
 
-In this project, we will create a Sorting Visualizer using Python and three popular sorting algorithms: Insertion Sort, Selection Sort, and Bubble Sort. The Sorting Visualizer will provide a graphical representation of how these sorting algorithms work step-by-step, making it easier to understand their sorting process.
+# No build tools needed — just open the file
+open index.html
 
-Key Features:
-1. Graphical Interface: We will create a graphical user interface (GUI) using a Python library like Tkinter or Pygame. The GUI will display an array of bars representing the elements to be sorted.
+🤔 How It Works
 
-2. Random Array Generation: The Sorting Visualizer will allow users to generate a random array of integers. This array will serve as the input data for sorting.
+Generate a new array with custom size
 
-3. Visualization: The main focus of this project is to visually demonstrate how the sorting algorithms work. As the algorithms sort the array, the GUI will update the bars' positions to reflect the current state of the array after each step.
+Choose a sorting algorithm
 
-4. Step-by-Step Execution: The Sorting Visualizer will execute the sorting algorithms step-by-step, allowing users to observe each algorithm's behavior closely.
+Watch the animated sorting
 
-5. Sorting Algorithm Options: Users will be able to choose which sorting algorithm they want to visualize: Insertion Sort, Selection Sort, or Bubble Sort.
+Observe time complexity behavior visually
 
-6. Adjustable Speed: The visualizer will have an adjustable speed control so that users can slow down or speed up the sorting process for better observation.
+🧠 Learning Goals
 
-7. Color Indications: The bars representing the array elements will have different colors to indicate their current status (e.g., unsorted, being compared, swapped).
+By using this visualizer, you can:
 
-Implementation Steps:
+Visualize how each algorithm processes data
 
-1. Set up the graphical user interface (GUI) using Tkinter or Pygame, depending on your preference and experience.
+Compare algorithm efficiency
 
-2. Implement functions to generate a random array of integers and display the bars representing the array elements on the GUI.
+Understand sorting mechanics intuitively
 
-3. Implement the three sorting algorithms: Insertion Sort, Selection Sort, and Bubble Sort.
+Practice competitive programming and interview prep
 
-4. For each sorting algorithm, modify the algorithm's code to include steps that update the GUI after each comparison and swap operation.
+🚀 Future Enhancements
 
-5. Create buttons or a dropdown menu in the GUI to allow users to choose the sorting algorithm they want to visualize.
+🌗 Dark/Light mode toggle
 
-6. Implement a speed control feature that adjusts the delay between each step of the sorting process.
+📊 Add more algorithms (Radix, Shell, Bucket…)
 
-7. Run the sorting algorithm step-by-step and update the GUI at each step to show the current state of the array.
+📱 Responsive mobile layout
 
-8. Test the Sorting Visualizer with various input array sizes and observe how the algorithms work in different scenarios.
+🧩 Step-by-step explanation for each algorithm
 
-Optional Enhancements:
+🤝 Contributing
 
-1. Add more sorting algorithms to the visualizer, such as Merge Sort, Quick Sort, etc.
+Want to improve this project? Contributions are welcome!
 
-2. Include additional data structures like linked lists or trees and visualize how the algorithms sort these structures.
+Fork the repository
 
-3. Allow users to input their custom array for sorting instead of generating a random array.
+Create a feature branch (feature/xyz)
 
-4. Add sound effects to make the visualization more engaging.
+Commit your changes
 
-Remember to keep the code well-documented and add comments wherever necessary to explain the logic and steps taken in the sorting algorithms and visualization process. Happy coding!
+Push and open a Pull Request
+
+📄 License
+
+Distributed under the MIT License. See LICENSE for details.
+
+🧑‍💻 Author
+
+Uday Gupta
+🔗 GitHub: https://github.com/UDaygupta12512
